@@ -1,0 +1,1043 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Worx\n"
+"POT-Creation-Date: 2014-03-09 10:29+0100\n"
+"PO-Revision-Date: 2014-03-09 10:29+0100\n"
+"Last-Translator: ThemeTrail <support@themetrail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../worx_wp/comments.php:12
+msgid "One Comment"
+msgstr ""
+
+#: ../worx_wp/comments.php:26
+msgid "Comment navigation"
+msgstr ""
+
+#: ../worx_wp/comments.php:27
+msgid "&laquo; Older Comments"
+msgstr ""
+
+#: ../worx_wp/comments.php:28
+msgid "Newer Comments &raquo;"
+msgstr ""
+
+#: ../worx_wp/comments.php:34
+msgid "Comments are closed."
+msgstr ""
+
+#: ../worx_wp/comments.php:40
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../worx_wp/comments.php:46
+msgid " "
+msgstr ""
+
+#: ../worx_wp/comments.php:48
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../worx_wp/comments.php:49
+msgid "Submit Comment"
+msgstr ""
+
+#: ../worx_wp/comments.php:51
+msgid "Comment"
+msgstr ""
+
+#: ../worx_wp/functions.php:141
+msgid "Menu"
+msgstr ""
+
+#: ../worx_wp/functions.php:154
+msgid "Blog Sidebar"
+msgstr ""
+
+#: ../worx_wp/functions.php:156
+msgid "The following widgets will show on your blog:"
+msgstr ""
+
+#: ../worx_wp/functions.php:302
+msgid "Reply"
+msgstr ""
+
+#: ../worx_wp/functions.php:328
+#, php-format
+msgid "<h5 class=\"fn\">%s</h5>"
+msgstr ""
+
+#: ../worx_wp/functions.php:331
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../worx_wp/functions.php:336
+msgid "ago"
+msgstr ""
+
+#: ../worx_wp/functions.php:360 ../worx_wp/lib/team.php:67
+msgid "Name"
+msgstr ""
+
+#: ../worx_wp/functions.php:363 ../worx_wp/lib/metaboxes/demo/demo.php:239
+msgid "Email"
+msgstr ""
+
+#: ../worx_wp/functions.php:366
+msgid "Website"
+msgstr ""
+
+#: ../worx_wp/index.php:33
+msgid "404"
+msgstr ""
+
+#: ../worx_wp/index.php:34 ../worx_wp/template-blog-masonry-fullwidth.php:38
+#: ../worx_wp/template-blog-masonry.php:38
+msgid "Page Not Found"
+msgstr ""
+
+#: ../worx_wp/index.php:42 ../worx_wp/template-blog-masonry-fullwidth.php:46
+#: ../worx_wp/template-blog-masonry.php:46
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../worx_wp/index.php:51 ../worx_wp/index.php:53 ../worx_wp/index.php:55
+#: ../worx_wp/template-blog-masonry-fullwidth.php:55
+#: ../worx_wp/template-blog-masonry-fullwidth.php:57
+#: ../worx_wp/template-blog-masonry-fullwidth.php:59
+#: ../worx_wp/template-blog-masonry.php:55
+#: ../worx_wp/template-blog-masonry.php:57
+#: ../worx_wp/template-blog-masonry.php:59
+#, php-format
+msgid "Archive: %s"
+msgstr ""
+
+#: ../worx_wp/index.php:51 ../worx_wp/template-blog-masonry-fullwidth.php:55
+#: ../worx_wp/template-blog-masonry.php:55
+msgid "F d Y"
+msgstr ""
+
+#: ../worx_wp/index.php:53 ../worx_wp/template-blog-masonry-fullwidth.php:57
+#: ../worx_wp/template-blog-masonry.php:57
+msgid "F Y"
+msgstr ""
+
+#: ../worx_wp/index.php:55 ../worx_wp/template-blog-masonry-fullwidth.php:59
+#: ../worx_wp/template-blog-masonry.php:59
+msgid "Y"
+msgstr ""
+
+#: ../worx_wp/index.php:59
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#: ../worx_wp/index.php:62
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#: ../worx_wp/index.php:65
+#, php-format
+msgid "All posts by: %s"
+msgstr ""
+
+#: ../worx_wp/index.php:91 ../worx_wp/template-blog-masonry-fullwidth.php:109
+#: ../worx_wp/template-blog-masonry.php:116
+msgid "<i class=\"fa fa-comments\"></i> 0"
+msgstr ""
+
+#: ../worx_wp/index.php:91 ../worx_wp/template-blog-masonry-fullwidth.php:109
+#: ../worx_wp/template-blog-masonry.php:116
+msgid "<i class=\"fa fa-comments\"></i> 1"
+msgstr ""
+
+#: ../worx_wp/index.php:91 ../worx_wp/template-blog-masonry-fullwidth.php:109
+#: ../worx_wp/template-blog-masonry.php:116
+msgid "<i class=\"fa fa-comments\"></i> %"
+msgstr ""
+
+#: ../worx_wp/index.php:108
+msgid "Pages:"
+msgstr ""
+
+#: ../worx_wp/index.php:136
+msgid "Share on Twitter"
+msgstr ""
+
+#: ../worx_wp/index.php:139
+msgid "Share on Facebook"
+msgstr ""
+
+#: ../worx_wp/index.php:142
+msgid "Share on Google+"
+msgstr ""
+
+#: ../worx_wp/index.php:145
+msgid "Share on Pinterest"
+msgstr ""
+
+#: ../worx_wp/index.php:171 ../worx_wp/template-blog-masonry-fullwidth.php:137
+#: ../worx_wp/template-blog-masonry.php:144
+msgid "Nothing found."
+msgstr ""
+
+#: ../worx_wp/searchform.php:3
+msgid "Type in Search Phrase.."
+msgstr ""
+
+#: ../worx_wp/section-portfolio.php:23
+msgid "All"
+msgstr ""
+
+#: ../worx_wp/section-team.php:48
+msgid "more"
+msgstr ""
+
+#: ../worx_wp/sidebar.php:6 ../worx_wp/lib/portfolio.php:66
+msgid "Categories"
+msgstr ""
+
+#: ../worx_wp/sidebar.php:10
+msgid "Archive"
+msgstr ""
+
+#: ../worx_wp/template-blog-masonry-fullwidth.php:61
+#: ../worx_wp/template-blog-masonry.php:61
+msgid "Archives"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:155
+#: ../worx_wp/lib/tgm-plugin-activation.php:62 ../worx_wp/lib/tgm.php:86
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:156
+#: ../worx_wp/lib/tgm-plugin-activation.php:63 ../worx_wp/lib/tgm.php:87
+msgid "Install Plugins"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:157
+#: ../worx_wp/lib/tgm-plugin-activation.php:64 ../worx_wp/lib/tgm.php:88
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:158
+msgid "Something went wrong."
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:169
+#: ../worx_wp/lib/tgm-plugin-activation.php:76 ../worx_wp/lib/tgm.php:100
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:170
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:171
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1840
+#: ../worx_wp/lib/tgm-plugin-activation.php:77 ../worx_wp/lib/tgm.php:101
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:172
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1538
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:173
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:174
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1085
+msgid "External Link"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1090
+msgid "Private Repository"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1093
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1097
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1100
+msgid "Required"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1100
+msgid "Recommended"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1103
+msgid "Not Installed"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1105
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1275
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1291
+msgid "Plugin"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1292
+msgid "Source"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1293
+msgid "Type"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1294
+msgid "Status"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1312
+msgid "Install"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1313
+msgid "Activate"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1823
+msgid "Install package not available."
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1827
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1828
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1839
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1949
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1950
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1959
+msgid "Show Details"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1950
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1959
+msgid "Hide Details"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1951
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1956
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1960
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../worx_wp/lib/class-tgm-plugin-activation.php:2052
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:13
+msgid "Section Settings"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:19
+msgid "Add this Page to the Frontpage"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:20
+msgid "If checked, this page will be added as a section to your frontpage."
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:26
+msgid "Hide Menu Link"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:27
+msgid "If checked, no link to this section will appear in the menu."
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:33
+msgid "Alternate Page Title"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:39
+msgid "Page Subtitle"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:45
+msgid "Set this page to"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:50
+msgid "Home Section"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:51
+msgid "Parallax Section"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:52
+msgid "Team Section"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:53
+msgid "Portfolio Section"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:54
+msgid "Contact Section"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:57
+msgid "Select a Section"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:65 ../worx_wp/lib/metaboxes.php:71
+msgid "Team Members per Row"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:89
+msgid "Team Member Content"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:95
+msgid "Position"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:107
+msgid "Project Content"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:113
+msgid "Media Width"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:114
+msgid ""
+"Project images, slideshow & video width. When selecting a width of 100% the "
+"project details will be shown below the media."
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:118
+msgid "50% (Default)"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:119
+msgid "75%"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:120
+msgid "100% Boxed"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:121
+msgid "100% Full-Width"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:130
+msgid "Project Images"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:148
+msgid "Project Video"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:159
+msgid "YouTube"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes.php:160
+msgid "Vimeo"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:6 ../worx_wp/lib/portfolio.php:8
+msgid "Portfolio"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:7
+msgid "Project"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:9 ../worx_wp/lib/portfolio.php:10
+#: ../worx_wp/lib/portfolio.php:12
+msgid "Add New Project"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:11
+msgid "Edit Project"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:13
+msgid "View Project"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:14
+msgid "Search Portfolio"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:15
+msgid "No project found"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:16
+msgid "No project found in trash"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:36
+msgid "Project Categories"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:37
+msgid "Project Category"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:38
+msgid "Search Project Categories"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:39
+msgid "Popular Project Categories"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:40
+msgid "All Project Categories"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:41
+msgid "Edit Project Category"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:42
+msgid "Update Project Category"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:43
+msgid "Add New Project Category"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:44
+msgid "New Project Category Name"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:45
+msgid "Separate Project Categories With Commas"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:46
+msgid "Add or Remove Project Categories"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:47
+msgid "Choose From Most Used Project Categories"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:48
+msgid "Parent Project Category"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:64 ../worx_wp/lib/team.php:66
+msgid "Thumbnail"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:65
+msgid "Title"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:67
+msgid "Author"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:68
+#: ../worx_wp/lib/metaboxes/demo/date-time-js-options.php:15
+msgid "Date"
+msgstr ""
+
+#: ../worx_wp/lib/portfolio.php:84 ../worx_wp/lib/team.php:86
+msgid "-"
+msgstr ""
+
+#: ../worx_wp/lib/team.php:6 ../worx_wp/lib/team.php:8
+msgid "Team"
+msgstr ""
+
+#: ../worx_wp/lib/team.php:7
+msgid "Team Member"
+msgstr ""
+
+#: ../worx_wp/lib/team.php:9 ../worx_wp/lib/team.php:10
+#: ../worx_wp/lib/team.php:12
+msgid "Add New Team Member"
+msgstr ""
+
+#: ../worx_wp/lib/team.php:11
+msgid "Edit Team Member"
+msgstr ""
+
+#: ../worx_wp/lib/team.php:13
+msgid "View Team Member"
+msgstr ""
+
+#: ../worx_wp/lib/team.php:14
+msgid "Search Team"
+msgstr ""
+
+#: ../worx_wp/lib/team.php:15
+msgid "No team member found"
+msgstr ""
+
+#: ../worx_wp/lib/team.php:16
+msgid "No team member found in trash"
+msgstr ""
+
+#: ../worx_wp/lib/tgm-plugin-activation.php:65 ../worx_wp/lib/tgm.php:89
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../worx_wp/lib/tgm-plugin-activation.php:78 ../worx_wp/lib/tgm.php:102
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/all-custom-post-types.php:20
+msgid "Personal Information"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/all-custom-post-types.php:25
+msgid "Full name"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/better-include.php:16
+#: ../worx_wp/lib/metaboxes/demo/include-by-ID-or-page-template.php:8
+msgid "Meta Box Title"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/better-include.php:19
+#: ../worx_wp/lib/metaboxes/demo/include-by-ID-or-page-template.php:14
+msgid "Your images"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/date-time-js-options.php:11
+msgid "Date Time Picker With JS Options"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/date-time-js-options.php:21
+#: ../worx_wp/lib/metaboxes/demo/demo.php:184
+msgid "(yyyy-mm-dd)"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/date-time-js-options.php:23
+msgid "Select Date"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/date-time-js-options.php:24
+#: ../worx_wp/lib/metaboxes/demo/demo.php:185
+msgid "yy-mm-dd"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/date-time-js-options.php:30
+msgid "Datetime"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/date-time-js-options.php:41
+msgid "Time"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:34
+msgid "Standard Fields"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:53
+msgid "Text"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:57
+msgid "Text description"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:60
+msgid "Default text value"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:66
+msgid "Checkbox"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:74
+msgid "Radio"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:80
+#: ../worx_wp/lib/metaboxes/demo/demo.php:91
+#: ../worx_wp/lib/metaboxes/demo/demo.php:233
+#: ../worx_wp/lib/metaboxes/demo/demo.php:278
+msgid "Label1"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:81
+#: ../worx_wp/lib/metaboxes/demo/demo.php:92
+#: ../worx_wp/lib/metaboxes/demo/demo.php:234
+#: ../worx_wp/lib/metaboxes/demo/demo.php:279
+msgid "Label2"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:86
+#: ../worx_wp/lib/metaboxes/demo/demo.php:273
+msgid "Select"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:97
+#: ../worx_wp/lib/metaboxes/demo/demo.php:284
+msgid "Select an Item"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:104
+msgid "Hidden value"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:108
+msgid "Password"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:114
+msgid "Textarea"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:115
+msgid "Textarea description"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:132
+msgid "Password is required"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:133
+msgid "Password must be at least 7 characters"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:141
+msgid "Advanced Fields"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:147
+msgid "Heading"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:152
+msgid "Slider"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:157
+msgid "$"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:158
+msgid " USD"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:169
+msgid "Number"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:178
+msgid "Date picker"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:193
+msgid "Datetime picker"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:207
+msgid "Time picker"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:222
+msgid "Color picker"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:228
+msgid "Checkbox list"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:241
+msgid "Email description"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:247
+msgid "Range"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:249
+msgid "Range description"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:258
+msgid "URL"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:260
+msgid "URL description"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:266
+msgid "oEmbed"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:268
+msgid "oEmbed description"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:288
+msgid "Taxonomy"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:302
+msgid "Posts (Pages)"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:318
+msgid "WYSIWYG / Rich Text Editor"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:323
+msgid "WYSIWYG default value"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:339
+#: ../worx_wp/lib/metaboxes/demo/force-delete.php:15
+msgid "File Upload"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:345
+msgid "File Advanced Upload"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:353
+#: ../worx_wp/lib/metaboxes/demo/force-delete.php:22
+msgid "Image Upload"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:359
+#: ../worx_wp/lib/metaboxes/demo/force-delete.php:28
+msgid "Thickbox Image Upload"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:365
+#: ../worx_wp/lib/metaboxes/demo/force-delete.php:35
+msgid "Plupload Image Upload"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/demo.php:372
+msgid "Image Advanced Upload"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/force-delete.php:11
+msgid "Test Meta Box"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/map.php:9
+msgid "Google Map"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/map.php:13
+msgid "Address"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/map.php:15
+msgid "Hanoi, Vietnam"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/demo/map.php:19
+msgid "Location"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/classes/meta-box.php:252
+msgid "Please correct the errors highlighted below and try again."
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/classes/meta-box.php:426
+msgid "+"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/classes/meta-box.php:448
+msgid "&#8211;"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/button.php:36
+msgid "Click me"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/file-advanced.php:23
+#: ../worx_wp/lib/metaboxes/inc/fields/plupload-image.php:106
+msgid "Select Files"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/file-advanced.php:66
+msgid "Select or Upload Files"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/file-advanced.php:102
+#: ../worx_wp/lib/metaboxes/inc/fields/file.php:138
+#: ../worx_wp/lib/metaboxes/inc/fields/image-advanced.php:106
+#: ../worx_wp/lib/metaboxes/inc/fields/image.php:144
+msgid "Delete"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/file-advanced.php:103
+#: ../worx_wp/lib/metaboxes/inc/fields/file.php:139
+#: ../worx_wp/lib/metaboxes/inc/fields/image-advanced.php:107
+#: ../worx_wp/lib/metaboxes/inc/fields/image.php:145
+msgid "Edit"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/file.php:19
+#, php-format
+msgid "You may only upload maximum %d file"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/file.php:20
+#, php-format
+msgid "You may only upload maximum %d files"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/file.php:70
+msgid "Error: Cannot delete file"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/file.php:84
+msgid "Upload Files"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/file.php:85
+msgid "+ Add new file"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/image-advanced.php:22
+msgid "Select Images"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/image-advanced.php:71
+msgid "Select or Upload Images"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/image.php:64
+msgid "Order saved"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/image.php:78
+#: ../worx_wp/lib/metaboxes/inc/fields/thickbox-image.php:35
+msgid "Upload Images"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/image.php:79
+msgid "+ Add new image"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/map.php:48
+msgid "Find Address"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/plupload-image.php:104
+msgid "Drop images here"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/plupload-image.php:105
+msgid "or"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/plupload-image.php:181
+msgid "Allowed Image Files"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/post.php:54
+msgid "Post"
+msgstr ""
+
+#: ../worx_wp/lib/metaboxes/inc/fields/post.php:68
+#: ../worx_wp/lib/metaboxes/inc/fields/taxonomy.php:40
+#, php-format
+msgid "Select a %s"
+msgstr ""

@@ -8,6 +8,8 @@ var navHeight = jQuery('header.navbar').height();
 var container = jQuery('#portfolio-list');
 var navbar = jQuery('header.navbar');
 
+var home = jQuery('#home');
+
 /* Stellar.js - jQuery plugin that provides parallax scrolling effects to any scrolling element
 http://markdalgleish.com/projects/stellar.js/docs/
 -------------------------*/
@@ -98,11 +100,16 @@ jQuery(document).ready(function() {
         setNavbarHeight();
     });
 
+    jQuery('.home-btn-bottom button').on('click', function(e) {
+        jQuery('html,body').animate({
+            scrollTop: 0
+        }, 800);
+    });
+
 
     jQuery(window).resize(function() {
         setNavbarHeight();
     });
-
 
     function setNavbarHeight() {
         console.log(jQuery(window).width());

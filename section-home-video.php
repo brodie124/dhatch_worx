@@ -1,8 +1,8 @@
 <?php
 global $wpdb, $tt_option;
 $background_color = get_post_meta( get_the_ID(), '_tt_page_background_color', true );
-if ( $background_color ) { 
-	echo '<style>#' . $slug . ', #' . $slug . ' .section-heading .title span, #' . $slug . ' .custom-heading .title span { background-color: ' . $background_color . '; }</style>'; 
+if ( $background_color ) {
+	echo '<style>#' . $slug . ', #' . $slug . ' .section-heading .title span, #' . $slug . ' .custom-heading .title span { background-color: ' . $background_color . '; }</style>';
 }
 $image_dimension = $tt_option['background_image_dimension'];
 $attachment_url = $tt_option['home_video_background_image']['url'];
@@ -43,16 +43,18 @@ $attachment_url = $attachment_array[0];
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="home-btn-bottom">
 		<button type="button" class="video-btn-play btn-light" onclick="jQuery('#video').playYTP()"><?php echo $tt_option['home_video_play_text']; ?></button>
 	</div>
-	
+
 	<div class="video-controls">
-		<button type="button" class="video-btn-play" onclick="jQuery('#video').playYTP()"><i class="fa fa-play"></i></button>		
+		<button type="button" class="video-btn-play" onclick="jQuery('#video').playYTP()"><i class="fa fa-play"></i></button>
 		<button type="button" class="video-btn-pause" onclick="jQuery('#video').pauseYTP()"><i class="fa fa-pause"></i></button>
 		<button type="button" class="video-btn-prev" onclick="jQuery('#video').playPrev()"><i class="fa fa-backward"></i></button>
 		<button type="button" class="video-btn-next" onclick="jQuery('#video').playNext()"><i class="fa fa-forward"></i></button>
 		<button type="button" class="video-btn-volume" onclick="jQuery('#video').toggleVolume()"><i class="fa fa-volume-up"></i></button>
 	</div>
+
+
 </div><!-- #home -->

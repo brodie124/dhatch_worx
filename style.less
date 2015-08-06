@@ -53,6 +53,10 @@ ThemeTrail.com
     .animated();
 }
 
+.mb_YTVPBar.inlinePlayer {
+    visibility: hidden;
+}
+
 .brand-contact-number {
     position: absolute;
     right: 30px;
@@ -62,6 +66,11 @@ ThemeTrail.com
     @media (max-width: 1024px) {
         left: 30px !important;
     }
+}
+
+.video-holder {
+    position: relative;
+    top: 0px;
 }
 .gradient(@start: #fff, @end: #eee) {
     background-color: @start;
@@ -1869,15 +1878,15 @@ header.navbar {
         background-color: @color-primary;
     }
     .home-btn-bottom {
-        position: absolute;
+        position: relative;
         z-index: 3;
-        bottom: 5%;
+        bottom: 90px;
         width: 100%;
         text-align: center;
         text-transform: uppercase;
-        @media(min-width: 768px) {
-            bottom: 10%;
-        }
+        // @media(min-width: 768px) {
+        //     bottom: 10%;
+        // }
     }
     &.home-video .home-btn-bottom a.btn-light {
         display: none;

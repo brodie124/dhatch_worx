@@ -1838,7 +1838,11 @@ header.navbar {
     font-family: inherit;
     background-color: @home-background-color;
 
-    margin-top: 80px;
+    @media (max-width: 1024px) {
+        margin-top: 80px;
+    }
+
+
     [class^="col-"] {
         float: none;
         margin: 0 auto;

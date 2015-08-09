@@ -91,6 +91,7 @@ jQuery(document).ready(function() {
 
     setNavbarHeight();
 
+
     // Add a "Back" link to the top of the sub menu
     jQuery('.sub-menu').prepend('<li class="sub-menu-back"><a href="">&nbsp;</a></li>');
 
@@ -107,9 +108,37 @@ jQuery(document).ready(function() {
     });
 
 
+
+
     jQuery(window).resize(function() {
         setNavbarHeight();
+
+        setButtonPosition();
     });
+
+    jQuery(document).on('DOMNodeInserted', function(e) {
+        //console.log(e);
+        if(e.target.id == 'wrapper_mbYTP_video') {
+            console.log("Wrapper added!");
+            setButtonPosition();
+        }
+    });
+
+
+    function setButtonPosition() {
+        var videoWrapper = jQuery("#home .mbYTP_wrapper");
+        var videoButton = jQuery('#home .home-btn-bottom');
+
+        var videoWrapperBottom = videoWrapper.position().top + videoWrapper.height();
+        var videoButtonTop = videoButton.position().top;
+        var homeBottom = home.position().top + home.height();
+
+        if(videoWrapperBottom - videoButtonTop < 0)
+            videoButton.css('top', videoWrapperBottom);
+
+        if(videoButtonTop + videoButton.height() > homeBottom)
+            videoButton.css('top', homeBottom - videoButton.height());
+    }
 
     function setNavbarHeight() {
         console.log(jQuery(window).width());
@@ -414,6 +443,10 @@ jQuery(document).ready(function() {
 
     // Tooltip
     jQuery('[data-toggle="tooltip"]').tooltip();
+
+
+
+
 
 }); // END jQuery(document).ready()
 

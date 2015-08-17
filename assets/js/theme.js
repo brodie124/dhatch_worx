@@ -137,7 +137,7 @@ jQuery(document).ready(function() {
             videoButton.css('top', videoWrapperBottom);
 
         if(videoButtonTop + videoButton.height() > homeBottom)
-            videoButton.css('top', homeBottom - videoButton.height());
+            videoButton.css('top', homeBottom - (videoButton.height() * 2));
     }
 
     function setNavbarHeight() {

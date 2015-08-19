@@ -53,7 +53,11 @@ $attachment_url = $attachment_array[0];
 		<button type="button" class="video-btn-pause" onclick="jQuery('#video').pauseYTP()"><i class="fa fa-pause"></i></button>
 		<button type="button" class="video-btn-prev" onclick="jQuery('#video').playPrev()"><i class="fa fa-backward"></i></button>
 		<button type="button" class="video-btn-next" onclick="jQuery('#video').playNext()"><i class="fa fa-forward"></i></button>
-		<button type="button" class="video-btn-volume" onclick="jQuery('#video').toggleVolume()"><i class="fa fa-volume-up"></i></button>
+        <?php if(($tt_option['home_video_start_muted_on'])) { ?>
+            <button type="button" class="video-btn-volume" onclick="jQuery('#video').toggleVolume()"><i class="fa fa-volume-off"></i></button>
+        <?php } else {?>
+            <button type="button" class="video-btn-volume" onclick="jQuery('#video').toggleVolume()"><i class="fa fa-volume-up"></i></button>
+        <?php } ?>
 	</div>
 
 

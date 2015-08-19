@@ -134,9 +134,13 @@ e.preventDefault();
 $video_ids = $tt_option['home_video_id'];
 // TYPlayer Script
 if( $home_background_feature == "video" || is_page_template('demo-video.php') ) {
-?>
-var autoplay =  <?php echo ($tt_option['home_video_auto_start_on']) ? 'true' : 'false'; ?>;
 
+
+$startMuted = ($tt_option['home_video_start_muted_on']) ? 'true' : 'false';
+?>
+
+
+var autoplay =  <?php echo ($tt_option['home_video_auto_start_on']) ? 'true' : 'false'; ?>;
 var videos = [
 <?php
 // Strip away all spaces
@@ -145,10 +149,10 @@ $video_ids = explode( ',', $video_ids );
 foreach( $video_ids as $video_id ) {
 	// Autoplay Video On/Off Toggle
 	if ( $tt_option['home_video_auto_start_on'] ) {
-		echo "{videoURL: '$video_id',containment:'#home',autoPlay:true,loop:true},\n";
+		echo "{videoURL: '$video_id',containment:'#home',autoPlay:true,loop:false,mute:" . $startMuted . "},\n";
 	}
 	else {
-		echo "{videoURL: '$video_id',containment:'#home',autoPlay:false,loop:false},\n";
+		echo "{videoURL: '$video_id',containment:'#home',autoPlay:false,loop:false,mute:" . $startMuted . "},\n";
 	}
 }
 ?>
@@ -164,7 +168,7 @@ function nextVideo() {
 
   jQuery("#video").on("YTPEnd", function() {
     videoCounter++;
-	if(videoCounter < count || autoplay) {
+	if(videoCounter < count) {
     	jQuery("#video").changeMovie(videos[videoCounter]);
 	} else {
 		setTimeout(function() {

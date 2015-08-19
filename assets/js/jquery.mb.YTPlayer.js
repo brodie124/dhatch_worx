@@ -632,6 +632,9 @@ function onYouTubePlayerAPIReady() {
 		},
 
 		changeMovie: function (opt) {
+
+            console.log(arguments.callee.caller.toString());
+
 			var YTPlayer = this.get(0);
 
 			var data = YTPlayer.opt;

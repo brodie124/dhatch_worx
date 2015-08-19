@@ -465,6 +465,15 @@ if ( !class_exists( "Redux_Framework_worx_config" ) ) {
 						'default' 		=> '0',
 						'required' 		=> 	array('home_background_feature','=','video'),
 					),
+                    array(
+                        'id'					=>	'home_video_start_muted_on',
+                        'type' 				=> 	'checkbox',
+                        'title' 			=> 	__('Start Video Muted', 'redux-framework-demo'),
+                        'subtitle' 		=> 	__('', 'redux-framework-demo'),
+                        'desc' 				=> 	__('', 'redux-framework-demo'),
+                        'default' 		=> '0',
+                        'required' 		=> 	array('home_background_feature','=','video'),
+                    ),
 					array(
 						'id'					=> 	'home_video_background_image',
 						'type' 				=> 	'media',

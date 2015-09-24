@@ -117,9 +117,7 @@ jQuery(document).ready(function() {
     });
 
     jQuery(document).on('DOMNodeInserted', function(e) {
-        //console.log(e);
         if(e.target.id == 'wrapper_mbYTP_video') {
-            console.log("Wrapper added!");
             setButtonPosition();
         }
     });
@@ -128,6 +126,9 @@ jQuery(document).ready(function() {
     function setButtonPosition() {
         var videoWrapper = jQuery("#home .mbYTP_wrapper");
         var videoButton = jQuery('#home .home-btn-bottom');
+
+        if(typeof videoWrapper === 'undefined' || videoButton === 'undefined')
+            return;
 
         var videoWrapperBottom = videoWrapper.position().top + videoWrapper.height();
         var videoButtonTop = videoButton.position().top;
@@ -141,14 +142,14 @@ jQuery(document).ready(function() {
     }
 
     function setNavbarHeight() {
-        console.log(jQuery(window).width());
-        if(jQuery(window).width() < 1024) {
-            console.log("collapsed");
+        if(typeof navbar === 'undefined')
+            return;
+
+        if (jQuery(window).width() < 1024) {
             navbar.css('height', navbar[0].scrollHeight + 'px');
         } else {
             navbar.css('height', 80 + 'px');
         }
-
     }
 
     var windowOffsetHeight = windowHeight - 1;

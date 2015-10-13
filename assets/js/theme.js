@@ -108,6 +108,8 @@ jQuery(document).ready(function() {
     });
 
 
+    var videoWrapper = jQuery("#home .mbYTP_wrapper");
+    var videoButton = jQuery('#home .home-btn-bottom');
 
 
     jQuery(window).resize(function() {
@@ -122,12 +124,14 @@ jQuery(document).ready(function() {
         }
     });
 
+    var navbarCollapseWidth = 768;
+
 
     function setButtonPosition() {
-        var videoWrapper = jQuery("#home .mbYTP_wrapper");
-        var videoButton = jQuery('#home .home-btn-bottom');
 
-        if(typeof videoWrapper === 'undefined' || videoButton === 'undefined')
+
+        if(typeof videoWrapper === 'undefined' || videoButton === 'undefined' ||
+           videoWrapper == null || videoButton == null || videoWrapper.length == 0 || videoButton.length == 0)
             return;
 
         var videoWrapperBottom = videoWrapper.position().top + videoWrapper.height();
@@ -142,11 +146,11 @@ jQuery(document).ready(function() {
     }
 
     function setNavbarHeight() {
-        if(typeof navbar === 'undefined')
+        if(typeof navbar === 'undefined' || navbar == null)
             return;
 
-        if (jQuery(window).width() < 1024) {
-            navbar.css('height', navbar[0].scrollHeight + 'px');
+        if (jQuery(window).width() < navbarCollapseWidth) {
+            //navbar.css('height', navbar[0].scrollHeight + 'px');
         } else {
             navbar.css('height', 80 + 'px');
         }

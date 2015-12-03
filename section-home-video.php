@@ -44,9 +44,11 @@ $attachment_url = $attachment_array[0];
 		</div>
 	</div>
 
+    <?php if($tt_option['home_video_play_text'] != '') { ?>
 	<div class="home-btn-bottom">
 		<button type="button" class="video-btn-play btn-light" onclick="jQuery('#video').playYTP()"><?php echo $tt_option['home_video_play_text']; ?></button>
 	</div>
+    <?php } ?>
 
 	<div class="video-controls">
 		<button type="button" class="video-btn-play" onclick="jQuery('#video').playYTP()"><i class="fa fa-play"></i></button>
